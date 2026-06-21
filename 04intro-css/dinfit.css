@@ -1,11 +1,6 @@
-/*
-DINFIT External Style Sheet
-Fonts: Archivo Black + Space Grotesk
-Color palette from the DINFIT style guide:
-#0B0B0B, #F2F1EC, #8A8A8A, #D9D9D9, #E6C468
-*/
+/* DINFIT CSS Style Assignment */
 
-/* Base page styles */
+/* Page styles */
 
 * {
     box-sizing: border-box;
@@ -49,7 +44,7 @@ header {
     text-align: right;
 }
 
-/* Main navigation: horizontal flex menu with 48px-tall links */
+/* Main navigation */
 nav {
     background-color: #0B0B0B;
     border-top: 2px solid #E6C468;
@@ -89,7 +84,7 @@ nav a:focus-visible {
     color: #0B0B0B;
 }
 
-/* Way-finding: highlights the current page in the navigation. */
+/* Way-finding */
 nav a.active,
 nav a[aria-current="page"] {
     background-color: #D9D9D9;
@@ -143,7 +138,7 @@ em {
     font-weight: 500;
 }
 
-/* Content links receive a clear hover and keyboard-focus state. */
+/* hover state */
 main a {
     color: #0B0B0B;
     font-weight: 700;
@@ -159,7 +154,7 @@ main a:focus-visible {
     text-decoration-color: #0B0B0B;
 }
 
-/* List styles: the unordered list uses square bullets and custom spacing. */
+/* List styles */
 main ul,
 main ol {
     margin: 1.25rem 0 1.5rem;
